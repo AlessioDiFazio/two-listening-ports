@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: two-listening-ports
+
+server:
+  # External port
+  port: 8080
+  # Internal port
+  internal-port: 8079
